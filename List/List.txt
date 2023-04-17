@@ -1,0 +1,5 @@
+List<String> hotDog = new List<String>{'pão', 'salsicha', 'batata'};
+hotDog.add('batata palha'); 
+hotDog.add('purê de batata');
+hotDog.remove(2);
+System.debug(hotDog);
