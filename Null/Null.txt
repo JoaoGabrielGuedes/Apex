@@ -1,0 +1,20 @@
+String iAm;
+System.debug(iAm);
+
+Boolean sleepy;
+System.debug(sleepy);
+
+Integer but;
+System.debug(but);
+
+Long my;
+System.debug(my);
+
+Double study;
+System.debug(study);
+
+Date willNot;
+System.debug(willNot);
+
+Time stop;
+System.debug(stop);
