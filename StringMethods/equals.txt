@@ -1,0 +1,28 @@
+//compare a string to an object
+Object objectOne = 'abcdef';
+String alphabetSix = 'abcdef';
+String sameAlphabetWithCase = 'aBcdEf';
+
+Boolean resultEqualsObAlp = alphabetSix.equals(objectOne);
+System.assertEquals(true, resultEqualsObAlp);
+
+//compare a string to an object containing a number
+Integer objectTwo = 300;
+Boolean resultEqualsObAlpThree = alphabetSix.equals(objectTwo);
+System.assertEquals(false, resultEqualsObAlpThree);
+
+//compare a string to an ID of the same length
+Id idValueFifthteen = '001D000000Ju1zH';
+String stringValueFifthteen = '001D000000Ju1zH'; //upper case is accounted
+Boolean resultEqualsObAlpFour = stringValueFifthteen.equals(idValueFifthteen);
+System.assertEquals(true, resultEqualsObAlpFour); 
+
+//compare two equal ID values of different lengths
+Id idValueEitghteen = '001D000000Ju1zHIAR';
+Boolean resultEqualsObAlpFive = stringValueFifthteen.equals(idValueEitghteen);
+System.assertEquals(true, resultEqualsObAlpFive);
+
+//compare while ignoring case
+Boolean resultEqualsObAlpSix = 
+alphabetSix.equalsIgnoreCase(sameAlphabetWithCase);
+System.assertEquals(resultEqualsObAlpSix, true);

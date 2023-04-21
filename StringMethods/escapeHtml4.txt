@@ -1,0 +1,4 @@
+String originalHtmlFour = '"<Black&White>"';
+String escapedHtmlFour = originalHtmlFour.escapeHtml4();
+System.debug('Original HTML4 '+originalHtmlFour);
+System.debug('Escaped HTML4 ' +escapedHtmlFour);

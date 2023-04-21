@@ -1,0 +1,6 @@
+String alphabetSix = 'abcdef';
+String sameAlphabetDivided = 'abc';
+Integer sameAlphabetIndexOne = alphabetSix.indexOf(sameAlphabetDivided);
+System.assertEquals(0, sameAlphabetIndexOne);
+Integer sameAlphabetIndexTwo = alphabetSix.indexOf(sameAlphabetDivided, 2);
+System.assertEquals(-1, sameAlphabetIndexTwo);

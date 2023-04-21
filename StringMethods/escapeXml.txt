@@ -1,0 +1,3 @@
+String originalHtmlFour = '"<Black&White>"';
+String escapedXmlOne = originalHtmlFour.escapeXml();
+System.debug(escapedXmlOne);

@@ -1,0 +1,4 @@
+//escapeCsv - need to study further 
+String stringComma = 'String1, "String2"';
+String stringCommaTwo = stringComma.escapeCsv();
+System.assertEquals('"String1, ""String2"""', stringCommaTwo);
