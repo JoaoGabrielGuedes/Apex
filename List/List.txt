@@ -1,8 +1,0 @@
-List<String> knowledge = new List<String>{'System.debug', 'Seven', 'Potato', 'Class'};
-  knowledge.add('List'); 
-  knowledge.add('Map');
-  knowledge.add('Add');
-  knowledge.add('Remove');
-  knowledge.remove(2);
-  knowledge.set(1, 'Set');
-System.debug(knowledge);
