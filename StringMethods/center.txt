@@ -1,0 +1,7 @@
+String whatsThat = 'This';
+System.debug(whatsThat.center(30));
+
+//Padded
+System.debug(whatsThat.center(10, '-'));
+
+

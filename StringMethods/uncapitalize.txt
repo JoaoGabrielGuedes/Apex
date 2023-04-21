@@ -1,0 +1,4 @@
+String whatIs = 'Why do I find this funny? Hahahaha';
+System.debug('Actual String: ' +whatIs);
+System.debug('Uncapitalized String: ' +whatIs.uncapitalize());
+System.debug('If I call it again will be uncapitalizade? I guess that will not but here it is: ' +whatIs);
