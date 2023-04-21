@@ -1,0 +1,5 @@
+String alphabetSix = 'abcdef';
+String sameAlphabetWithRepeat = 'abcdefabcdef';
+
+System.assertEquals(1, alphabetSix.countMatches('abcdef'));
+System.assertEquals(2, sameAlphabetWithRepeat.countMatches('abcdef'));

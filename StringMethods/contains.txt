@@ -1,0 +1,46 @@
+String alphabetSix = 'abcdef';
+String alphabetNextSix = 'ghijk';
+String sameAlphabet = 'abcdef';
+String alphabetIntersection = 'defghi';
+String sameAlphabetWithCase = 'aBcdEf';
+String sameAlphabetWithSpace = 'a b c d e f';
+
+//contains
+Boolean resultBool =
+    alphabetSix.contains(sameAlphabet);
+System.assertEquals(resultBool, true);
+
+//containsAny
+Boolean resultBoolTwo =
+    alphabetSix.containsAny(alphabetIntersection);
+System.assertEquals(resultBoolTwo, true);
+
+Boolean resultBoolThree =
+    alphabetSix.containsAny(alphabetNextSix);
+System.assertEquals(resultBoolThree, false);
+
+//containsIgnoreCase
+Boolean resultBoolFour =
+    alphabetSix.containsIgnoreCase(sameAlphabetWithCase);
+System.assertEquals(resultBoolFour, true);
+
+//containsNone
+Boolean resultBoolFive =
+    alphabetSix.containsNone(alphabetNextSix);
+System.assertEquals(resultBoolFive, true);
+
+//containsOnly
+Boolean resultBoolSix =
+    alphabetSix.containsOnly('abc');
+System.assertEquals(resultBoolSix, false);
+
+Boolean resultBoolSeven =
+    alphabetSix.containsOnly('abcfgh');
+System.assertEquals(resultBoolSeven, false);
+
+Boolean resultBoolEight =
+    alphabetSix.containsOnly('abcdef');
+System.assertEquals(resultBoolEight, true);
+
+//containsWhiteSpace
+System.assert(sameAlphabetWithSpace.containsWhitespace());
