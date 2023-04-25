@@ -1,3 +1,0 @@
-List<Integer> charArr= new Integer[]{74}; //J in ASCII
-String convertedChar = String.fromCharArray(charArr);
-System.assertEquals('J', convertedChar);

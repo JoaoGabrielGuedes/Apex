@@ -1,3 +1,0 @@
-String hi = 'Hello World!';
-Integer[] chars = hi.getChars();
-System.assertEquals(72, chars[0]);

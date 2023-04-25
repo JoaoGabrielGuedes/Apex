@@ -1,5 +1,0 @@
-String alphabetSix = 'abcdef';
-String alphabetLeft = alphabetSix.left(3);
-System.assertEquals('abc', alphabetLeft);
-String alphabetLeftPadded = alphabetLeft.leftPad(5);
-System.assertEquals('  abc', alphabetLeftPadded);

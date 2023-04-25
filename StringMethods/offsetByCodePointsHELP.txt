@@ -1,2 +1,0 @@
-String sameAlphabet = 'abcdef';
-System.assertEquals(4, sameAlphabet.offsetByCodePoints(0,4)); //need to study

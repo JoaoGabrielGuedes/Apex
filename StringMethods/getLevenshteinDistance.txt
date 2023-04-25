@@ -1,6 +1,0 @@
-String getLevenshteinDistanceJoe= 'Hello Joe';
-String getLevenshteinDistanceJane = 'Hello Jane';
-Integer getLevenshteinDistanceOne = getLevenshteinDistanceJoe.getLevenshteinDistance('Hello Max');
-System.assertEquals(3, getLevenshteinDistanceOne);
-Integer getLevenshteinDistanceTwo = getLevenshteinDistanceJane.getLevenshteinDistance('Hello Max', 2);
-System.assertEquals(-1, getLevenshteinDistanceTwo);

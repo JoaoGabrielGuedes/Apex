@@ -1,6 +1,0 @@
-String alphabetSix = 'abcdef';
-String alphabetSixRepeat = alphabetSix.repeat(3);
-System.assertEquals('abcdefabcdefabcdef', alphabetSixRepeat);
-
-String alphabetSixRepeatWith = alphabetSix.repeat('-', 2);
-System.assertEquals('abcdef-abcdef', alphabetSixRepeatWith);

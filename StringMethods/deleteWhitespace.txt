@@ -1,3 +1,0 @@
-String sameAlphabetWithSpace = 'a b c d e f';
-String alphabetSix = 'abcdef';
-System.assertEquals(alphabetSix, sameAlphabetWithSpace.deleteWhitespace());

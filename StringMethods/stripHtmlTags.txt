@@ -1,3 +1,0 @@
-String originalHtmlFour = '"<Black&White>"';
-String originalHtmlFourWithoutHtml = originalHtmlFour.stripHtmlTags();
-System.assertEquals('""', originalHtmlFourWithoutHtml);

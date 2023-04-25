@@ -1,2 +1,0 @@
-String alphabetSix = 'abcdef';
-System.assert(alphabetSix.isAllLowerCase());
