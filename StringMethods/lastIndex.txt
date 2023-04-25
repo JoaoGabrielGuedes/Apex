@@ -1,0 +1,24 @@
+String alphabetSix = 'abcdef';
+String theyLoveOmega = '\u03A9 is Ω (Omega)';
+String theyReallyLoveOmega = 'Ω and \u03A9 and Ω';
+
+Integer lastIndexOfOne = alphabetSix.lastIndexOf('c');
+System.assertEquals(2, lastIndexOfOne);
+
+Integer lastIndexOfTwo = alphabetSix.lastIndexOf('c', 7);
+System.assertEquals(2, lastIndexOfTwo);
+Integer lastIndexOfThree = alphabetSix.lastIndexOf('c', 2);
+System.assertEquals(2, lastIndexOfThree);
+
+
+System.assertEquals(5, theyLoveOmega.lastIndexOfChar(937));
+
+System.assertEquals(12, theyReallyLoveOmega.lastIndexOfChar(937));
+System.assertEquals(6, theyReallyLoveOmega.lastIndexOfChar(937,11));
+System.assertEquals(0, theyReallyLoveOmega.lastIndexOfChar(937,5));
+
+Integer lastIndexOfFour = alphabetSix.lastIndexOfIgnoreCase('BCDE');
+System.assertEquals(1, lastIndexOfFour);
+
+Integer lastIndexOfFive = alphabetSix.lastIndexOfIgnoreCase('C', 7);
+System.assertEquals(2, lastIndexOfFive);

@@ -1,0 +1,21 @@
+String alphabetSix = 'abcdef';
+String sameAlphabetWithNumbers = 'abcdef 27';
+String sameAlphabetWithNumbersWithoutSpace = 'abcdef27';
+String especialAlphabet = 'aA$Bb';
+
+Boolean alphabetSixAlpha = alphabetSix.isAlpha();
+System.assertEquals(true, alphabetSixAlpha);
+
+Boolean alphabetSixAlphaTwo = sameAlphabetWithNumbers.isAlpha();
+System.assertEquals(false, alphabetSixAlphaTwo);
+
+System.assert(alphabetSix.isAlphaSpace());
+
+System.assert(!sameAlphabetWithNumbers.isAlphaSpace());
+
+System.assert(!especialAlphabet.isAlphaSpace());
+
+Boolean sameAlphabetWithNumbersWithoutSpaceOne = sameAlphabetWithNumbersWithoutSpace.isAlphanumeric();
+System.assertEquals(true, sameAlphabetWithNumbersWithoutSpaceOne);
+
+System.assert(sameAlphabetWithNumbers.isAlphanumericSpace());

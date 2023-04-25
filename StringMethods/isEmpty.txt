@@ -1,0 +1,14 @@
+String hi = 'Hello World!';
+String blank = '';
+String nullString = null;
+String whitespace = '  ';
+
+System.assert(String.isEmpty(blank));
+System.assert(String.isEmpty(nullString));
+System.assert(!String.isEmpty(whitespace));
+System.assert(!String.isEmpty(hi));
+
+System.assert(String.isNotEmpty(hi));
+System.assert(!String.isNotEmpty(blank));
+System.assert(!String.isNotEmpty(nullString));
+System.assert(String.isNotEmpty(whitespace));

@@ -1,0 +1,2 @@
+String sameAlphabetWithCase = 'ABCDEF';
+System.assert(sameAlphabetWithCase.isAllUpperCase());

@@ -1,0 +1,3 @@
+String getLevenshteinDistanceJoe = 'Hello Joe';
+String getLevenshteinDistanceJoeSwapCase = getLevenshteinDistanceJoe.swapCase();
+System.assertEquals('hELLO jOE', getLevenshteinDistanceJoeSwapCase);
