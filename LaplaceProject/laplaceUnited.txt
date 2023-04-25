@@ -34,6 +34,12 @@ String decimalPoint = '1.2';
 String numericSpace = '1 2 3';
 String theyLoveOmega = '\u03A9 is Ω (Omega)';
 String theyReallyLoveOmega = 'Ω and \u03A9 and Ω';
+String target = 'bc';
+String replacement = 'xy';
+String regExp = '[a-z]';
+String replacementTwo = '1';
+String regExpTwo = '[a-z]{6}';
+String replacementThree = 'f';
 
 //Objects
 Object objectOne = 'abcdef';
