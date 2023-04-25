@@ -1,0 +1,12 @@
+String numeric = '1234567890';
+String sameAlphabetWithNumbers = 'abcdef 27';
+String sameAlphabetWithNumbersWithoutSpace = 'abcdef27';
+String decimalPoint = '1.2';
+String numericSpace = '1 2 3';
+
+System.assert(numeric.isNumeric());
+System.assert(!sameAlphabetWithNumbersWithoutSpace.isNumeric());
+System.assert(!decimalpoint.isNumeric());
+
+System.assert(numericSpace.isNumericspace());
+System.assert(!sameAlphabetWithNumbers.isNumericspace());

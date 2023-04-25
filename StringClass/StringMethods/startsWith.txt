@@ -1,0 +1,3 @@
+String alphabetSix = 'abcdef';
+System.assert(alphabetSix.startsWith('abcdef'));
+System.assert(alphabetSix.startsWithIgnoreCase('ABCDEF'));

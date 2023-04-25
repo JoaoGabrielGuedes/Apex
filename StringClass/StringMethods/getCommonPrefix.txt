@@ -1,0 +1,3 @@
+List<String> commonPrefixOne = new List<String>{'System.debug', 'System.assert', 'System.assertEquals'};
+String prefixOne = String.getCommonPrefix(commonPrefixOne);
+System.assertEquals('System.', prefixOne);

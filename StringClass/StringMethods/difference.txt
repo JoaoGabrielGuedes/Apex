@@ -1,0 +1,6 @@
+String alphabetSix = 'abcdef';
+String alphabetDifference = 
+   alphabetSix.difference('abcxyz');
+System.assertEquals(
+   'xyz',
+   alphabetDifference);

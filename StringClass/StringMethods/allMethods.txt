@@ -1,0 +1,26 @@
+String whatIs = 'Why do I find this funny? Hahahaha';
+String capitalizeIsSelfish = 'i will creat this just for capitalize';
+System.debug('Actual String: ' +whatIs);
+
+//Abbreviate and Abbreviate plus offset
+System.debug('This is a abbreviated String: ' +whatIs.abbreviate(20));
+System.debug('This is a abbreviated² String: ' +whatIs.abbreviate(10));
+System.debug('This is a abbreviated³ String: ' +whatIs.abbreviate(5));
+System.debug('I dont know what this is anymore: ' +whatIs.abbreviate(4)); //nevermind, there is a min of 4 letters                        
+System.debug(whatIs.abbreviate(10,5)); //offset
+
+//Uncapitalize
+System.debug('Actual String: ' +whatIs);
+System.debug('Uncapitalized String: ' +whatIs.uncapitalize());
+System.debug('If I call it again will be uncapitalizade? I guess that will not but here it is: ' +whatIs);
+
+//Capitalize
+System.debug('Actual String: ' +capitalizeIsSelfish);
+System.debug('Capitalize: ' +capitalizeIsSelfish.capitalize());
+
+//Center
+String whatIs = 'This';
+System.debug(whatIs.center(30));
+
+//Center padded
+System.debug(whatIs.center(10, '-'));

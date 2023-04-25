@@ -1,0 +1,6 @@
+String whitespace = ' ';
+String blank = '';
+String sameAlphabetWithNumbersWithoutSpace = 'abcdef27';
+System.assert(whitespace.isWhitespace());
+System.assert(blank.isWhitespace());
+System.assert(!sameAlphabetWithNumbersWithoutSpace.isWhitespace());

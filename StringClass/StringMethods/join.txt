@@ -1,0 +1,4 @@
+List<Integer> joinOne = new List<Integer> {10, 20, 30};
+String joinStringOne = String.join(joinOne, '/');
+System.assertEquals('10/20/30', joinStringOne);
+System.debug(joinStringOne);

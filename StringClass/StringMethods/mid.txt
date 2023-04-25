@@ -1,0 +1,3 @@
+String alphabetSix = 'abcdef';
+String alphabetMid = alphabetSix.mid(2, 4);
+System.assertEquals('cdef', alphabetMid);
