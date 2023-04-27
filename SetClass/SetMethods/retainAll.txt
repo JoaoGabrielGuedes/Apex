@@ -1,0 +1,15 @@
+Set<String> setExample = new Set<String>();
+Set<String> setExampleElements = new Set<String>();
+setExample.add('add');
+setExample.add('remove');
+setExample.add('set');
+setExample.add('list');
+
+setExampleElements.add('set');
+setExampleElements.add('list');
+
+System.debug(setExample);
+System.debug(setExampleElements);
+
+Boolean setExampleRetainAll = setExample.retainAll(setExampleElements);
+System.assertEquals(true, setExampleRetainAll);

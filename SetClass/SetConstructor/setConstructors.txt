@@ -1,0 +1,16 @@
+Set<String> setExample = new Set<String>();
+setExample.add('add');
+setExample.add('remove');
+System.debug(setExample);
+
+Set<String> setToCopy = new Set<String>(setExample);
+setExample.add('set');
+setExample.add('list');
+System.debug(setToCopy);
+
+List<String> listToSetToCopy = new List<String>();
+
+Set<String> listToSet = new Set<String>(listToSetToCopy);
+listToSet.add('clear');
+listToSet.add('clone');
+System.debug(listToSet);

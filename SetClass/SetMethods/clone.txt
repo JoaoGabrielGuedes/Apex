@@ -1,0 +1,9 @@
+Set<String> setExample = new Set<String>();
+setExample.add('add');
+setExample.add('remove');
+setExample.add('set');
+setExample.add('list');
+System.debug(setExample);
+
+Set<String> setExampleClone = setExample.clone();
+System.debug(setExampleClone);
