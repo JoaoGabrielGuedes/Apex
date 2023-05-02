@@ -1,0 +1,12 @@
+Map<Integer, String> mapConstructor = new Map<Integer, String>();
+mapConstructor.put(1, 'First item');
+mapConstructor.put(2, 'Second item');
+System.debug(mapConstructor);
+
+Map<Integer, String> mapConstructorCopy = new Map<Integer, String>(mapConstructor);
+mapConstructorCopy.put(3, 'Third item');
+System.debug(mapConstructorCopy);
+
+List<Account> listsObjectMap = [select Id,Name from Account];
+Map<Id, Account> mapsObject = new Map<Id, Account>(listsObjectMap);
+System.debug(mapsObject);

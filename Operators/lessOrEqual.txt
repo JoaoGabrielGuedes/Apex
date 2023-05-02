@@ -1,0 +1,4 @@
+Boolean lessOrEqualResult = (5 <= 6);
+Boolean lessOrEqualResultTwo = (6 <= 6);
+System.debug('Less or Equal operator: '+lessOrEqualResult);
+System.debug('Less or Equal operator: '+lessOrEqualResultTwo);

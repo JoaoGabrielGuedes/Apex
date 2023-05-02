@@ -1,0 +1,6 @@
+Boolean firstTrue = true;
+Boolean secondFalse = false;
+Boolean firstAndSecondResult;
+
+firstAndSecondResult = firstTrue && secondFalse;
+System.debug('And operator: ' +firstAndSecondResult);
