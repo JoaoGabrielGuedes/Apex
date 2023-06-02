@@ -1,0 +1,5 @@
+Integer x = 5;
+System.debug('Test value: ' +x);
+
+x = x + 5;
+System.debug('Addition opertator: x + 5 =  ' +x);

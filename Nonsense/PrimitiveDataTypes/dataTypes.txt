@@ -1,0 +1,23 @@
+String headTest = 'Hello World!';
+System.debug(headTest);
+
+Boolean isThisAdream = false;
+System.debug(isThisAdream);
+
+Integer universeAndLifeNumber = 42;
+System.debug(universeAndLifeNumber);
+
+Long guessWhat = 0110111001101111L;
+System.debug(guessWhat);
+
+Double pi = 6.28318530717958647692/2;
+System.debug(pi);
+
+Date bestDay = Date.newInstance(1996, 2, 11);
+System.debug(bestDay);
+
+Time currentTime = Time.newInstance(21, 47, 0, 0);
+System.debug(currentTime);
+
+DateTime currentDateTime = DateTime.newInstance(2023, 4, 20, 21, 47, 0);
+System.debug(currentDateTime);

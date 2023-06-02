@@ -1,0 +1,8 @@
+List<String> daysOfTheWeek = new List<String>{'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'};
+
+for(String day: daysOfTheWeek){
+    if(day == 'Thursday'){
+        continue;
+    }
+    System.debug('It is '+ day+ '. I will eat rice with chicken');
+}

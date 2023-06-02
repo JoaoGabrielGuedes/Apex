@@ -1,0 +1,3 @@
+for (Integer dayTime = 00; dayTime <= 12; dayTime++) {
+    System.debug('Time: ' +dayTime);
+}

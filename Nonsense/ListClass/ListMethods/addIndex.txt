@@ -1,0 +1,3 @@
+List<String> methodsAreFunny = new List<String>{'Add, Remove, Set, Replace'};
+    methodsAreFunny.add(0, 'Contains');
+System.debug(methodsAreFunny);

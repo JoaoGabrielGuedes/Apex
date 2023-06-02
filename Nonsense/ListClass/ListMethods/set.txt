@@ -1,0 +1,8 @@
+List<Integer> listIntegerExample = new List<Integer>{1, 2, 3, 4, 5, 6};
+    listIntegerExample.set(0, 10);
+    listIntegerExample.set(1, 11);
+    listIntegerExample.set(2, 12);
+    listIntegerExample.set(3, 13);
+    listIntegerExample.set(4, 14);
+    listIntegerExample.set(5, 15);
+System.debug(listIntegerExample);

@@ -1,0 +1,11 @@
+Boolean isDaytime = true;
+Boolean isNightTime = false;
+Boolean shouldIleave = false;
+
+if(isDaytime == false){
+    System.debug('I will stay at home');
+} else if(isNightTime == true) {
+    System.debug('I will REALLY stay at home');
+} else {
+    System.debug('I don\'t care. I will still stay at home :D');
+} 

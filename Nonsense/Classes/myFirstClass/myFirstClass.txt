@@ -1,0 +1,8 @@
+public class myFirstClass {
+    String fact = 'This is very easy';
+
+    public void printFact() {
+        System.debug(fact);
+    }
+
+}

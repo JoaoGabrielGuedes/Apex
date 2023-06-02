@@ -1,0 +1,7 @@
+Map<Integer, String> mapConstructor = new Map<Integer, String>();
+mapConstructor.put(1, 'First item');
+mapConstructor.put(2, 'Second item');
+System.debug(mapConstructor);
+
+List<String> mapConstructorToList = new List<String>();
+mapConstructorToList = mapConstructor.values();

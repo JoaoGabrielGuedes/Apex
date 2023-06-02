@@ -1,0 +1,9 @@
+Integer breakStatement = 10;
+Integer iWriteCode = 1000;
+
+for (Integer linesOfCode=1; linesOfCode<=iWriteCode; linesOfCode++){
+    System.debug('Writing ' + linesOfCode + ' line(s) of code');
+    if(linesOfCode == breakStatement){
+        break;
+    }
+}

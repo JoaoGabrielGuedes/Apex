@@ -1,0 +1,6 @@
+Integer dayTime = 00;
+
+do {
+    System.debug('Time: ' +dayTime);
+  	    dayTime++;
+} while (dayTime <= 12);

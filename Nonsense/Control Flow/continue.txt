@@ -1,0 +1,9 @@
+List<String> daysOfTheWeek = new List<String>{'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'};
+Integer listSize = daysOfTheWeek.size();
+
+for(Integer i=0; i < listSize; i++){
+    if(daysOfTheWeek.get(i) == 'Saturday'){
+        continue;
+    }
+    System.debug('It is '+daysOfTheWeek.get(i)+'. I will eat rice with chicken.');
+}

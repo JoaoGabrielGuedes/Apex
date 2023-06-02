@@ -1,0 +1,4 @@
+Boolean greaterOrEqualResult = (5 >= 6);
+Boolean greaterOrEqualResultTwo = (6 >= 6);
+System.debug('Greater or Equal operator: '+greaterOrEqualResult);
+System.debug('Greater or Equal operator: '+greaterOrEqualResultTwo);

@@ -1,0 +1,10 @@
+Map<Integer, String> mapConstructor = new Map<Integer, String>();
+mapConstructor.put(1, 'First item');
+mapConstructor.put(2, 'Second item');
+System.debug(mapConstructor);
+
+Map<Integer, String> mapCloned = new Map<Integer, String>(mapConstructor);
+System.debug(mapCloned);
+
+Boolean mapEquals = mapConstructor.equals(mapCloned);
+System.assertEquals(true, MapEquals);

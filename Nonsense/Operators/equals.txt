@@ -1,0 +1,6 @@
+Boolean firstTrue = true;
+Boolean secondFalse = false;
+Boolean firstEqualsSecondResult;
+
+firstEqualsSecondResult = (firstTrue == secondFalse);
+System.debug('Equality operator: '+firstEqualsSecondResult);
