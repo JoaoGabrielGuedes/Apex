@@ -1,9 +1,0 @@
-Set<String> setExample = new Set<String>();
-setExample.add('add');
-setExample.add('remove');
-setExample.add('set');
-setExample.add('list');
-System.debug(setExample);
-
-Boolean setExampleContains = setExample.contains('add');
-System.assertEquals(true, setExampleContains);
