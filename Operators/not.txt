@@ -1,5 +1,0 @@
-Boolean firstTrue = true;
-
-System.debug('Not operator before: ' +firstTrue);
-firstTrue = !firstTrue;
-System.debug('Not operator after: ' +firstTrue);

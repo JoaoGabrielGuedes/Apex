@@ -1,6 +1,0 @@
-Boolean firstTrue = true;
-Boolean secondFalse = false;
-Boolean firstOrSecondResult;
-
-firstOrSecondResult = firstTrue || secondFalse;
-System.debug('Or operator: ' +firstOrSecondResult);

@@ -1,2 +1,0 @@
-Boolean greaterResult = (5 > 6);
-System.debug('Greater than operator: '+greaterResult);

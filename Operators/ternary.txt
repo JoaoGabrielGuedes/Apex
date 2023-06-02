@@ -1,8 +1,0 @@
-String greetingTernaryOperator = '';
-Integer hourTernaryOperator = 10;
-
-greetingTernaryOperator = (hourTernaryOperator  < 12) ? 'Good Morning' : 'Good Afternoon';
-System.debug('Ternary operator 10h: '+greetingTernaryOperator);
-hourTernaryOperator  = 13;
-greetingTernaryOperator = (hourTernaryOperator < 12) ? 'Good Morning' : 'Good Afternoon';
-System.debug('Ternary operator 13: '+greetingTernaryOperator);

@@ -1,5 +1,0 @@
-Integer x = 5;
-System.debug('Test value: ' +x);
-
-x--;
-System.debug('Decrement opertator: x-- "or x-1" =  ' +x);

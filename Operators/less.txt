@@ -1,2 +1,0 @@
-Boolean lessResult = (5 < 6);
-System.debug('Less than operator: '+lessResult);

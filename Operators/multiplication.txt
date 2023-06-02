@@ -1,5 +1,0 @@
-Integer x = 5;
-
-x = x * 5;
-System.debug('Multiplication opertator: x * 5 =  ' +x);
-
