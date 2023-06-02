@@ -1,7 +1,0 @@
-Map<Integer, String> mapConstructor = new Map<Integer, String>();
-mapConstructor.put(1, 'First item');
-mapConstructor.put(2, 'Second item');
-System.debug(mapConstructor);
-
-Boolean mapConstructorContains = mapConstructor.containsKey(2);
-System.assertEquals(true, mapConstructorContains);

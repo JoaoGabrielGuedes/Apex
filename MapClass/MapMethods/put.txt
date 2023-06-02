@@ -1,9 +1,0 @@
-Map<Integer, String> mapConstructor = new Map<Integer, String>();
-mapConstructor.put(1, 'First item');
-mapConstructor.put(2, 'Second item');
-System.debug(mapConstructor);
-
-Map<Integer, String> mapConstructorPutAll = new Map<Integer, String>();
-mapConstructorPutAll.putAll(mapConstructor);
-Boolean mapOneisEqualstoMapPutAll = mapConstructorPutAll.equals(mapConstructor);
-System.assertEquals(true, mapOneisEqualstoMapPutAll);
