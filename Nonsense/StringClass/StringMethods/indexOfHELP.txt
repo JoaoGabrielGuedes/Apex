@@ -1,0 +1,27 @@
+String alphabetSix = 'abcdef';
+String sameAlphabetDivided = 'abc';
+String alphabetNextSix = 'ghijkl';
+String sameAlphabetWithCase = 'aBcdEf';
+
+Integer sameAlphabetIndexOne = alphabetSix.indexOf(sameAlphabetDivided);
+System.assertEquals(0, sameAlphabetIndexOne);
+
+Integer sameAlphabetIndexTwo = alphabetSix.indexOf(sameAlphabetDivided, 2);
+System.assertEquals(-1, sameAlphabetIndexTwo);
+
+Integer sameAlphabetIndexThree = alphabetSix.indexOfAny(alphabetNextSix);
+System.assertEquals(-1, sameAlphabetIndexThree);
+
+Integer sameAlphabetIndexFour = alphabetSix.indexOfAny(sameAlphabetDivided);
+System.assertEquals(0, sameAlphabetIndexFour);
+
+Integer sameAlphabetIndexFive = alphabetSix.indexOfAnyBut(sameAlphabetDivided);
+System.assertEquals(3, sameAlphabetIndexFive);
+
+System.debug('indexOfChar(937)=' +alphabetSix.indexOfChar(937));
+
+Integer sameAlphabetIndexSix = alphabetSix.indexOfDifference(sameAlphabetDivided);
+System.assertEquals(3, sameAlphabetIndexSix);
+
+Integer sameAlphabetIndexSeven = alphabetSix.indexOfIgnoreCase(sameAlphabetWithCase, 0);
+System.assertEquals(0, sameAlphabetIndexSeven);

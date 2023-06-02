@@ -1,0 +1,3 @@
+Integer objectTwo = 300;
+String objectTwoValueOf = String.valueOf(objectTwo);
+System.debug('Result: ' +objectTwoValueOf); //convert date, date time, decimal, double, interger, long, object 

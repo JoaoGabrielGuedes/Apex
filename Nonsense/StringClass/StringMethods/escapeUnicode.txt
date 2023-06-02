@@ -1,0 +1,3 @@
+String escapeUnicodeOne = 'De onde você é?';
+String escapedUnicodeOne = escapeUnicodeOne.escapeUnicode();
+System.assertEquals('De onde voc\\u00EA \\u00E9?', escapedUnicodeOne);

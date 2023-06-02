@@ -1,0 +1,3 @@
+String hi = 'Hello World!';
+System.assert(hi.endsWith('World!'));
+System.assert(hi.endsWithIgnoreCase('world!'));

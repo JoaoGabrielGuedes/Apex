@@ -1,0 +1,3 @@
+String alphabetSix = 'abcdef';
+Integer alphabetLength = alphabetSix.length();
+System.assertEquals(alphabetLength, 6);

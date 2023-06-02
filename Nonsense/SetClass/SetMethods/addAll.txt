@@ -1,0 +1,11 @@
+Set<String> setExample = new Set<String>();
+setExample.add('add');
+setExample.add('remove');
+setExample.add('set');
+setExample.add('list');
+System.debug(setExample);
+
+Set<String> setExampleAddAll = new Set<String>(setExample);
+System.debug(setExampleAddAll);
+setExampleAddAll.clear();
+System.debug(setExampleAddAll);

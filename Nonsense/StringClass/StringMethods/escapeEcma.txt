@@ -1,0 +1,4 @@
+String escapeEcmaOne = '"grade": 3.9/4.0';
+String escapeEcmaTwo = escapeEcmaOne.escapeEcmaScript();
+System.debug(escapeEcmaTwo);
+System.assertEquals('\\"grade\\": 3.9\\/4.0', escapeEcmaTwo);
