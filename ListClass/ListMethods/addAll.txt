@@ -1,8 +1,0 @@
-List<String> methodsAreFunny = new List<String>{'Add, Remove, Set, Replace'};
-    methodsAreFunny.add(0, 'Contains');
-    methodsAreFunny.add(1, 'addAll');
-List<String> addMethod = new List<String>{'Add, Remove, Set, Replace'};
-
-List<String> addAllMethod = new List<String>(methodsAreFunny);
-    addAllMethod.addAll(addMethod);
-System.debug(addAllMethod);

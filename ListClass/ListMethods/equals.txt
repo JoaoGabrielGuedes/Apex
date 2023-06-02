@@ -1,6 +1,0 @@
-List<String> addMethod = new List<String>{'Add, Remove, Set, Replace'};
-System.debug('Orginal: ' +addMethod);
-List<String> cloneMethod = addMethod.clone();
-System.debug('Clone: ' +cloneMethod);
-Boolean equalsList = addMethod.equals(CloneMethod);
-System.assertEquals(true, equalsList);

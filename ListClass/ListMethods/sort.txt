@@ -1,3 +1,0 @@
-List<Integer> listIntegerExampleDisorder = new List<Integer>{6, 2, 3, 1, 5, 4};
-listIntegerExampleDisorder.sort();
-System.debug(listIntegerExampleDisorder);

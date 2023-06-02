@@ -1,4 +1,0 @@
-List<String> addMethod = new List<String>{'Add, Remove, Set, Replace'};
-System.debug('Orginal: ' +addMethod);
-List<String> cloneMethod = addMethod.clone();
-System.debug('Clone: ' +cloneMethod); //deepClone also exists, it can copy almost all of the data

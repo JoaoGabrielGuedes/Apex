@@ -1,5 +1,0 @@
-List<String> addMethod = new List<String>{'Add, Remove, Set, Replace'};
-Boolean addMethodContains = addMethod.contains('Add, Remove, Set, Replace');
-System.assertEquals(true, addMethodContains);
-Boolean addMethodDontContains = addMethod.contains('Add');
-System.assertEquals(false, addMethodDontContains); //i don't know why
