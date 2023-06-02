@@ -1,5 +1,0 @@
-String escapeSinglesQuotesOne = '\'Hello Jason\'';
-System.debug(escapeSinglesQuotesOne);
-String escapedSinglesQuotesOne = String.escapeSingleQuotes(escapeSinglesQuotesOne);
-System.debug(escapedSinglesQuotesOne); 
-System.assertEquals('\\\'Hello Jason\\\'', escapedSinglesQuotesOne);

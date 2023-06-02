@@ -1,3 +1,0 @@
-String capitalizeIsSelfish = 'i will creat this just for capitalize';
-System.debug('Actual String: ' +capitalizeIsSelfish);
-System.debug('Capitalize: ' +capitalizeIsSelfish.capitalize());

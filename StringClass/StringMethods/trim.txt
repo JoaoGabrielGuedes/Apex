@@ -1,3 +1,0 @@
-String sameAlphabetWithSpaceTwo = '   a b c d e f   ';
-String sameAlphabetWithSpaceTwoTrimmed = sameAlphabetWithSpaceTwo.trim();
-System.assertEquals('a b c d e f', sameAlphabetWithSpaceTwoTrimmed);

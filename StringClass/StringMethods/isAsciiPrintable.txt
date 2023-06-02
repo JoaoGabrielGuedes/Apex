@@ -1,4 +1,0 @@
-String asciiTable = 'abcd1234!@#$%^&*()`~-_+={[}]|:<,>.?';
-System.assert(asciiTable.isAsciiPrintable());
-String notAsciiTable = '√';
-System.assert(!notAsciiTable.isAsciiPrintable());

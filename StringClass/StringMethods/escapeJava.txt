@@ -1,3 +1,0 @@
-String escapeJavaOne = 'Company: "Salesforce.com"';
-String escapedJavaOne = escapeJavaOne.escapeJava();
-System.assertEquals('Company: \\"Salesforce.com\\"', escapedJavaOne);

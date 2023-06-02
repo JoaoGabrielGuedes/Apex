@@ -1,4 +1,0 @@
-String templateformat = '{0} was last updated {1}';
-List<Object> parameters = new List<Object> {'Universal Containers', DateTime.newInstance(2023, 04, 21) };
-String templateformatted = String.format(templateformat, parameters);
-System.debug ('Newly formatted string:' + templateformatted);

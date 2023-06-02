@@ -1,2 +1,0 @@
-String getLevenshteinDistanceJoe = 'Hello Joe';
-System.assertEquals('HELLO JOE', getLevenshteinDistanceJoe.toUpperCase());

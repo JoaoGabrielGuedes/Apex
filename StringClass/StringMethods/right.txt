@@ -1,9 +1,0 @@
-String getLevenshteinDistanceJoe = 'Hello Joe';
-String alphabetSix = 'abcdef';
-String alphabetNextSix = 'ghijkl';
-
-String getLevenshteinDistanceJoeRight = getLevenshteinDistanceJoe.right(3);
-System.assertEquals('Joe', getLevenshteinDistanceJoeRight);
-
-String alphabetSixRight = alphabetSix.rightPad(12, alphabetNextSix);
-System.assertEquals('abcdefghijkl', alphabetSixRight);

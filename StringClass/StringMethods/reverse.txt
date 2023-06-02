@@ -1,5 +1,0 @@
-String alphabetSix = 'abcdef';
-String alphabetSixReverse = alphabetSix.reverse();
-System.assertEquals('fedcba', alphabetSixReverse);
-System.debug('String: ' +alphabetSix);
-System.debug('Reversed String: ' +alphabetSixReverse);
